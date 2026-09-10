@@ -192,3 +192,8 @@ Usage of withdrawer:
 - Use `--gas-price` for legacy transactions OR `--max-fee-per-gas` and `--max-priority-fee` for EIP-1559 transactions (not both)
 - The `--gas-multiplier` flag multiplies the estimated gas by the specified factor (e.g., 1.1 for 10% buffer)
 - The `--max-gas-price` flag acts as a safety cap and will abort the transaction if the gas price exceeds this value
+
+
+## Parcours francais
+
+Une lecture commentee en francais du code source de ce depot est disponible dans [docs/fr/](docs/fr/README.md) : 8 chapitres couvrant le flux de retrait en deux passages (prouver puis finaliser), le chemin classique L2OutputOracle, le chemin fault proofs DisputeGameFactory, le module de signature (cle privee, mnemonique, Ledger) et la configuration du gas.
